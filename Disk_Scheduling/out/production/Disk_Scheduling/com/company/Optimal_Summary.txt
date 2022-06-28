@@ -1,0 +1,14 @@
+Team:
+	Fayza Ahmed Sayed Ahmed 	20190376        
+	Asmaa Refat Abd Elmabood 	20190101
+	Yommna Mahmoud Abdel Wahab 	20190625
+	Nada Omar Fathi 		20190581
+
+
+	"The Newly Optimized Algorithm Summary"
+     *  initially the disk head always starts at position 0, 
+     *  The head moving to the position zero and start from zero to the last cylinder, 
+     *  if the head starts at a position other than zero, we go to zero and then starts from there,
+     *  we sort all the cylinders input block (the sequence array) in ascending order,
+     *  Service the input request in front of head immediately till we reach to the end of the range,
+     *  Return total_head_movements.
